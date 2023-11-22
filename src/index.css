@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Rubik&display=swap');
+
+
+body {
+  display: flex;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  justify-content: center;
+  align-items: center;
+  
+}
+.app{
+  margin-top: 3rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius:1.5rem;
+   background-color: rgb(183, 217, 255);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+header{
+  
+  display: flex;
+  padding: 1rem 2rem;
+ 
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1{
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0 0.9rem;
+}
+
+img{
+  width:70px;
+}
+
+form{
+  position: relative;
+  display: flex;
+  margin-bottom: 1rem;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(183, 217, 255);
+  border-radius: 1.5rem;
+  max-width:100%;
+  padding: 0 1rem;
+}
+
+.input{
+  text-align: center;
+  font-size: 0.8rem;
+  height: 1.2rem;
+  padding: 0.5rem 1rem;
+  border: 4px double rgba(132, 89, 241, 0.2);
+  border-radius: 1.5rem;
+  width: 15rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.btn {
+  position: absolute;
+ background: #B7D9FF;
+    
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000;
+  
+ 
+  text-decoration: none;
+  border: none;
+  right: 0.8rem;
+  cursor: pointer;
+ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  
+}
+
+.btn:hover {
+ background: #ffffff;
+  text-decoration: none;
+}
+.do {
+  width:40px;
+}
+.todo-list{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  
+  border-radius: 1rem;
+  
+   
+  }
+.todo-item{
+  display: flex;
+  flex-direction: row;
+  padding-left: 1rem;
+  width: 100%; 
+  border-radius: 1rem;
+}
+.todo-item p{
+  margin: 0;
+  padding: 0.5rem;
+  padding-left: 1rem;
+}
+  .delete-btn {
+  border: none;
+  background-color: #B7D9FF;
+  
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.checkbox {
+  margin-right: 10px;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: #888;
+}
